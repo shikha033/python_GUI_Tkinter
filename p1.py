@@ -1,5 +1,5 @@
 from tkinter import *
-namra_root= Tk()
+namra_root= Tk()  # small k
 
 # GUI LOGIC ---
 
@@ -13,4 +13,4 @@ label1= Label(text = "This is used for labelling")
 label1.pack()
 
 
-namra_root.mainloop()
+namra_root.mainloop() # IF NOT USED THEN WINDOW WILL FLUTTER
