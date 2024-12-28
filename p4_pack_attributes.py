@@ -12,7 +12,6 @@ root.title("GUI USING TKINTER")
 # font - sets the font
 # 1. font=("comicsansms", 19, "bold")
 # 2. font="comicsansms 19 bold"
-
 # padx - x padding
 # pady - y padding
 # relief - border styling - SUNKEN, RAISED, GROOVE, RIDGE 
@@ -34,7 +33,7 @@ title_label.pack()
 # pady
 
 title_label.pack(anchor ="sw", side = "top", fill=X)
-#title_label.pack(side=LEFT, fill=Y, padx=34, pady=34)
+title_label.pack(side=LEFT, fill=Y, padx=34, pady=34)
 
 
 root.mainloop()
