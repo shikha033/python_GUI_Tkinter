@@ -5,15 +5,15 @@ from PIL import Image, ImageTk # before this install pillow
 root.geometry("1920x1080")
 
 # images  related widgets
-'''photo=PhotoImage(file="img.png")
+photo=PhotoImage(file="img.png")
 label1=Label(image=photo)
-label1.pack()'''
+label1.pack()
 
 # for jpgimages--
-image2=Image.open("img2.jpeg")
+'''image2=Image.open("img2.jpeg")
 photo2=ImageTk.PhotoImage(image2)
 label2=Label(image=photo2)
-label2.pack()
+label2.pack()'''
 
 
 
