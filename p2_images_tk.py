@@ -16,6 +16,4 @@ label2=Label(image=photo2)
 label2.pack()'''
 
 
-
-
 root.mainloop() # IF NOT USED THEN WINDOW WILL FLUTTER
