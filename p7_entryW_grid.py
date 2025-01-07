@@ -27,5 +27,8 @@ userentry.grid(row=0, column=1) # grid working like pack
 passentry.grid(row=1, column=1)
 
 Button(text="Submit", command=getvals).grid()
+#Button(text="Submit", command=getvals).pack(side="left",pady=50)# pack show error
+
+
 
 root.mainloop()
