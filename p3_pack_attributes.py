@@ -7,7 +7,7 @@ root.title("GUI USING TKINTER")
 # IMPORTANT LABEL OPTIONS---
 
 # text - adds the text
-# bd - background
+# bg- background
 # fg - foreground
 # font - sets the font
 # 1. font=("comicsansms", 19, "bold")
