@@ -1,4 +1,4 @@
-from tkinter import *
+'''from tkinter import *
 root= Tk()  # small k
 from PIL import Image, ImageTk # before this install pillow
 
@@ -10,10 +10,23 @@ label1=Label(image=photo)
 label1.pack()
 
 # for jpgimages--
-'''image2=Image.open("img2.jpeg")
+image2=Image.open("img2.jpeg")
 photo2=ImageTk.PhotoImage(image2)
 label2=Label(image=photo2)
-label2.pack()'''
+label2.pack()
 
 
-root.mainloop() # IF NOT USED THEN WINDOW WILL FLUTTER
+root.mainloop() # IF NOT USED THEN WINDOW WILL FLUTTER'''
+
+
+
+import tkinter as tk
+from tkinter import PhotoImage
+root = tk.Tk()
+root.title("Image Label Example")
+ # Load an image
+image = PhotoImage(file="img.png")  # Ensure the image file is in the same directory
+  # Create a label with the image
+image_label = tk.Label(root, image=image)
+image_label.pack()
+root.mainloop()
