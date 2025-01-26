@@ -15,9 +15,9 @@ def verify_login():
 
     # Check if the username exists and password matches
     if username in users and users[username] == password:
-        messagebox.showinfo("Login Success", f"Welcome, {username}!")
+        messagebox.showinfo("Login Success", f"Welcome, {username}!") #2nd after !
     else:
-        messagebox.showerror("Invalid Credentials", "Invalid ID or Password")
+        messagebox.showerror("Invalid Credentials", "Invalid ID or Password") # first argument in upper bar 2nd after cross
 
 # Create the main window
 root = tk.Tk()
