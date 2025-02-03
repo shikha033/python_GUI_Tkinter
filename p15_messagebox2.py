@@ -20,13 +20,16 @@ def rate():
         msg = "Tell us what went wrong. We will call you soon"
     tmsg.showinfo("Experience", msg)
 
-def divya():
-    ans = tmsg.askretrycancel("Divya se dosti kar lo", "Sorry divya nahi banegi aapki dost")
+import tkinter.messagebox as tmsg
+
+def friendship():
+    ans = tmsg.askretrycancel("Dosti ki koshish", "Maaf kijiyega, dosti sambhav nahi hai")
     if ans:
-        print("Retry karne pe bhi kuch nahi hoga")
+        print("Dubara koshish karne par bhi kuch nahi badlega")
 
     else:
-        print("Bahut badiya bhai cancel kar diya warna pitte")
+        print("Shabash! Cancel kar diya, warna musibat hoti")
+
 
 
 mainmenu = Menu(root)
@@ -53,7 +56,7 @@ mainmenu.add_cascade(label="Edit", menu=m2)
 m3 = Menu(mainmenu, tearoff=0)
 m3.add_command(label = "Help", command=help)
 m3.add_command(label = "Rate us", command=rate)
-m3.add_command(label = "Befriend Divya", command=divya)
+m3.add_command(label = "Befriend Divya", command=friendship)
 mainmenu.add_cascade(label="Help", menu=m3)
 root.config(menu=mainmenu)
 root.mainloop()
