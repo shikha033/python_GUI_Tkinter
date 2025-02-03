@@ -4,7 +4,7 @@ root.geometry("733x566")
 root.title("Pycharm")
 
 def myfunc():
-    print("Mai ek bahut hi natkhat aur shaitaan function hoon")
+    print("function executed")
 
 # #Use these to create a non dropdown menu
 # mymenu = Menu(root)
