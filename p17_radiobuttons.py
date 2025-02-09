@@ -15,6 +15,8 @@ var.set("Radio")
 # var.set(1)
 Label(root, text = "What would you like to have sir?",font="lucida 19 bold",
       justify=LEFT, padx=14).pack()
+radio = Radiobutton(root, text="Dosa", padx=14, variable=var, value="Dosa").pack(anchor="w")
+radio = Radiobutton(root, text="Idly", padx=14, variable=var, value="Idly").pack(anchor="w")
 
 Button(text="Order Now", command=order).pack()
 root.mainloop()
